@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>SimoA Black Jack</title>
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="animate.css">
+  <script src="jquery.js"></script>
+  <script src="blackjack.js"></script>
+</head>
+
+<body>
+  <div id="table">
+    <div id="messages"></div>
+    <label style="margin-left: 25px;">Dealer: </label>
+    <label id="dealer-points" class="points"></label>
+    <div id="dealer-hand" class="hand">
+    </div>
+    <label style="margin-left: 25px;">Player: </label>
+    <label id="player-points" class="points"></label>
+    <div id="player-hand" class="hand">
+    </div>
+    <div class="buttons">
+      <button id="deal-button">Deal</button>
+      <button id="hit-button">Hit</button>
+      <button id="stand-button">Stand</button>
+      <button id='bet-button'>Bet $100</button>
+    </div>
+    <div id="money-wrapper">
+      <label class="money">Bank: $</label>
+      <label id='player-money' class="money">500</label>
+    </div>
+  </div>
+</body>
+
+</html>
